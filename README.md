@@ -1,2 +1,4 @@
-# leetcode
-My LeetCode problems and solutions
+# Frontend developer preparation guide for FAANG
+
+LeetCode
+CCI
