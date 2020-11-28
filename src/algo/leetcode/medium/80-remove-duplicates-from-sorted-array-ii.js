@@ -3,7 +3,6 @@ const removeDuplicates = (nums) => {
 
   for (let i = 0; i < nums.length; i += 1) {
     if (nums[i] !== nums[i + 2]) {
-      // eslint-disable-next-line no-param-reassign
       nums[j] = nums[i];
       j += 1;
     }

@@ -5,11 +5,9 @@ const mergeTwoLists = (l1, l2) => {
   while (l1 && l2) {
     if (l1.val > l2.val) {
       current.next = l2;
-      // eslint-disable-next-line no-param-reassign
       l2 = l2.next;
     } else {
       current.next = l1;
-      // eslint-disable-next-line no-param-reassign
       l1 = l1.next;
     }
 

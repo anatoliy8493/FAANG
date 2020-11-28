@@ -12,6 +12,10 @@ module.exports = {
     'brace-style': ['error', '1tbs', {allowSingleLine: false}],
     quotes: ['error', 'single'],
     'prettier/prettier': ['error', { 'singleQuote': true }],
+    'no-param-reassign': 'off',
+    'no-unused-vars': 'off',
+    'no-console': 'off',
+    'no-shadow': 'off',
   },
   env: {
     browser: true,

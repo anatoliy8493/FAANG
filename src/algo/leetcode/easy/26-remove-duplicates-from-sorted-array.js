@@ -1,4 +1,3 @@
-/* eslint-disable no-param-reassign */
 const removeDuplicates = (nums) => {
   let i = 0;
   let j = 1;
